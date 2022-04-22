@@ -1,0 +1,47 @@
+body{
+    background-image:url("https://media.istockphoto.com/photos/top-view-of-kitchen-utensils-on-rustic-table-with-copy-space-picture-id1284023205");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#recette{
+    border: 1px;
+    background-color: whitesmoke;
+    width: 50%;
+    border-radius: 30px;
+    padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+h1{
+    border: 1px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-family: "franklin gothic medium";
+    font-size: 3em;
+    text-shadow: lightgrey 5px 5px;
+    border-radius: 30px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2, h3{
+    font-size: 1.5em;
+    color: lightslategrey;
+    text-shadow: black 1px 1px;
+}
+
+ul, ol{
+    list-style: square;
+    font-size: 1.2em;
+}

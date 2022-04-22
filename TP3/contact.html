@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <h1></h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href=""></a>Blog</li>
-                <li><a href=""></a>Gallerie</li>
-                <li><a href="contact.html"></a>Contact</li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <form action="POST" target="existePas.php">
-            <fieldset>
-                <legend>Contact</legend>
-                <div>
-                    <label for="nom">Nom:<span>*</span></label>
-                    <input type="text" id="nom" name="nom" placeholder="Ex: Robert" max="20" min="2">
-                </div>
-                <div>
-                    <label for="email">Email:<span>*</span></label>
-                    <input type="email" id="email" name="email" placeholder="monEmail@FAI.com">
-                </div>
-                <br>
-                    <label for="commentaire">Laissez un commentaire:</label></br>
-                    <textarea cols="70" rows="10" placeholder="Je dépose mon avis :)"></textarea>
-                </div>
-                <div>
-                    <input type="checkbox">
-                    <label>Envoyer une copie par E-mail</label>
-                </div>
-                <div>
-                    <button>Envoyer</button>
-                    <button>Reset</button>
-                </div>
-            </fieldset>
-        </form>
-    </section>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <img src="https://picsum.photos/800/200?random=1" alt="">
+            <h1>Bienvenu sur mon site !</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a href="./existePas.html"></a>Blog</li>
+                    <li><a href=""></a>Gallerie</li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <form action="POST" target="existePas.php">
+                <fieldset>
+                    <legend>Contact</legend>
+                    <div>
+                        <label for="nom">Nom:<span>*</span></label>
+                        <input type="text" id="nom" name="nom" placeholder="Ex: Robert" max="20" min="2">
+                    </div>
+                    <div>
+                        <label for="email">Email:<span>*</span></label>
+                        <input type="email" id="email" name="email" placeholder="monEmail@FAI.com">
+                    </div>
+                    <br>
+                        <label for="commentaire">Laissez un commentaire:</label></br>
+                        <textarea cols="70" rows="10" placeholder="Je dépose mon avis :)"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label>Envoyer une copie par E-mail</label>
+                    </div>
+                    <div>
+                        <button>Envoyer</button>
+                        <button>Reset</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </body>
+    <footer>
+        <ul>
+            <li><a>Menu 1</a></li>
+            <li><a>Menu 2</a></li>
+            <li><a>Menu 3</a></li>
+        </ul>
+    </footer>
 </html>

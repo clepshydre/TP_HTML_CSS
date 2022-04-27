@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+#conteneurLabelTchat{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#conteneurLabelTchat label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#conteneurMessages, #conteneurUtilisateursBox{
+    border: blue solid 2px;
+    border-radius: 20px;
+}
+
+#conteneurUtilisateursBox{
+    height: 150px;
+    align-self: center;
+}
+
+#conteneurMessages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 1000px;
+}
+
+li{
+    list-style-type: none;   
+}
+#labelTitreListe{
+    font-weight: bold;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+#conteneurMessages p{
+    width: 450px;
+}
+
+#conteneurMessageGris {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#conteneurMessageBlanc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#conteneurMessageGris p{
+    background-color: lightgray;
+}
+
+#conteneurBleu{
+    display: flex;
+    flex-direction: row;
+}
+#conteneurEcrireMessage{
+    padding: 5px;    
+}

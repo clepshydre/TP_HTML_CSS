@@ -1,0 +1,37 @@
+#formulaire{
+    height: 250px;
+    width: 400px;
+    background-color: lightgray;
+    border: solid black 2px;
+}
+
+#conteneurLabelConnexion label{
+    font-size: 2em;
+}
+#conteneurLabelConnexion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#labelPseudo{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+#labelPassword{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+#remember{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+#conteneurBouton{
+    margin-top:  30px;
+    text-align: center;
+}
+button{
+    margin: 5px;
+}

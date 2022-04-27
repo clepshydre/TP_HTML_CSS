@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form id="formulaire" action="POST">
+            <div id="conteneurLabelConnexion">
+                <label>Connexion</label>
+            </div>
+            <div id="conteneurPseudo">
+                <label id="labelPseudo" for="pseudo">Pseudo:</label>
+                <input id="pseudo" name="pseudo" type="text" placeholder="Mon pseudo">
+            </div>
+            <div id="conteneurPassword">
+                <label id="labelPassword" for="password">Mot de passe:</label>
+                <input id="password" name="password" type="password" placeholder="Mon mot de passe">
+            </div>
+            <div>
+                <input id="remember" name="remember" type="checkbox" checked>
+                <label id="labelRemember" for="remember">Se souvenir de moi</label>
+            </div>
+            <div id="conteneurBouton">
+                <button>Connexion</button>
+                <button>Retour</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

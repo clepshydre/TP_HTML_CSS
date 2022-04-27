@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+}
+
+#conteneurArticles{
+    display: flex;
+    flex-direction: row;
+}
+
+article{
+    background-color: white;
+    border: black solid 2px;
+    margin: 10px;
+}
+.conteneurArticleBouton{
+    display: flex;
+    flex-direction: column;
+}
+
+#contactBouton{
+    align-self: center;
+}
+
+#accueilBouton{
+    align-self: flex-start;
+}
+
+#conditionsBouton{
+    align-self: flex-end;
+}
+button{
+    background-color: black;
+    color: white;
+}
